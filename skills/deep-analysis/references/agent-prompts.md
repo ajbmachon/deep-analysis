@@ -62,11 +62,12 @@ Perform a DETAILED DEEP-DIVE analysis of these specific files/directories:
 
 {exact_list_of_directories_and_files}
 
-You are a Wave 2 (deep-dive) agent. A Wave 1 overview has already mapped the broad structure.
-Here is the relevant Wave 1 context for your area (paste the section of the Wave 1
-overview that covers this package's area, typically 10-30 lines):
+You are a Wave 2 (deep-dive) agent.
 
---- WAVE 1 CONTEXT ---
+If Wave 1 was run, paste the relevant section of the overview report below (typically 10-30 lines).
+If Wave 1 was skipped (target <=30 files), omit this section entirely.
+
+--- WAVE 1 CONTEXT (omit if Wave 1 was skipped) ---
 {relevant_wave1_section}
 --- END WAVE 1 CONTEXT ---
 

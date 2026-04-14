@@ -57,7 +57,7 @@ Present the sizing and wave plan to the user. Use TaskCreate to track each wave 
 
 **Goal:** Map the landscape. Identify structure, patterns, complexity hotspots, and areas for deep-dive. NOT exhaustive — deliberately broad.
 
-**When to skip:** Total target <=30 files — go directly to Wave 2.
+**When to skip:** Total target <=30 files — go directly to Wave 2. When skipping, compose Wave 2 packages by splitting the target by top-level subdirectories. If the target is a single flat directory, treat it as one package.
 
 Split the target into 2-5 overview agents by logical area. Read `references/agent-prompts.md` for the Wave 1 prompt template. Dispatch all agents in parallel.
 
@@ -124,7 +124,7 @@ After presenting the report, list all files produced. Ask the user **one time** 
 
 ## Rules
 
-- **You are the orchestrator, not the analyst.** Do not read source code yourself. Read agent outputs.
+- **You are the orchestrator, not the analyst.** Do not analyze source code yourself — that is the agents' job. You read only agent outputs, prompt references, and pipeline metadata.
 - **Never skip verification.** Wave 3 is mandatory.
 - **Respect context limits.** No agent gets >40 files for deep analysis. Split if larger.
 - **Wave 1 feeds Wave 2.** Pass relevant Wave 1 context into Wave 2 prompts.
