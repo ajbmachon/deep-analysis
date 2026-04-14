@@ -11,7 +11,7 @@
       "name": "deep-analysis",
       "description": "Orchestrate deep code analysis with automatic verification. Dispatches deep-code-auditor and doc-verifier agents across multiple waves to produce trust-scored reports.",
       "version": "0.1.0",
-      "source": ".",
+      "source": "./",
       "author": {
         "name": "Andre Machon"
       }
