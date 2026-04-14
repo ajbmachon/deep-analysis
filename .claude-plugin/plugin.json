@@ -1,0 +1,12 @@
+{
+  "name": "deep-analysis",
+  "version": "0.1.0",
+  "description": "Verified code intelligence — multi-wave analysis with trust-scored reports. Dispatches deep-code-auditor and doc-verifier agents to produce exhaustive, independently verified codebase analysis.",
+  "author": {
+    "name": "Andre Machon",
+    "email": "andre@flowconai.com",
+    "url": "https://flowconai.com"
+  },
+  "license": "MIT",
+  "keywords": ["analysis", "code-audit", "verification", "cqrs", "architecture", "technical-debt"]
+}
